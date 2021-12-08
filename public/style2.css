@@ -1,0 +1,86 @@
+body{
+    margin:0px;
+    padding:0px;
+    outline:none;
+    border:none;
+}
+
+.bgr{
+    height:100vh;
+    width:100vw;
+    /* background-color: #010038; */
+    background:url('image/v960-ning-31.jpg');
+    background-size:cover;
+    
+}
+
+.topics{
+    position:relative;
+    padding:15px;
+    
+}
+
+.heading{
+    position:relative;
+    z-index:4;
+    color:rgb(0, 0, 42);
+    font-weight:normal;
+}
+
+.topicText{
+    position:absolute;
+    z-index:1000;
+    border-radius:1rem;
+    padding:5px;
+    background:rgba(0,0,0,0.1);
+}
+
+
+.topic{
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0093E9; */
+    background-size: cover;
+    position:relative;
+    height:200px;
+    border-radius:1rem;
+}
+
+.gaming{
+    background-image: url('image/353-3539918_png-gaming-ninja-logo-color-01-ninja-logo-removebg-preview.png');
+}
+
+.food{
+    background-image:url('image/food.png');
+    background-position: top;
+}
+
+.chill{
+    background-image: url('image/chill.png');
+}
+
+.study{
+    background-image:url('image/man-with-laptop-studying-working-concept_113065-167-removebg-preview.png')
+}
+
+.politics{
+    background-image: url('image/politics.jpg');
+}
+
+.new{
+    background-image: url('image/new.jpg');
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to top,rgba(255, 0, 0, 0.267),rgba(0, 4, 255, 0.342));
+}
+
+.topics a{
+    color:white;
+    text-decoration: none;
+}
